@@ -42,6 +42,8 @@ For 2D discrete signals (single channel):
 
 Where *I* is the input image and *K* is the kernel. In deep learning libraries the kernel is flipped in the formal definition, but implementation abstracts that away.
 
+![Convolution](cnn_convolution.gif)
+
 ---
 
 ## Slide 5 — Padding & Stride
@@ -203,8 +205,4 @@ Notes:
 
 
 ---
-
-*End of slides.*
-
-*If you'd like these in a downloadable PowerPoint or want extra slides with visual figures (filter visualisations, backprop diagrams), tell me which diagrams you want and I can expand the notes.*
 
