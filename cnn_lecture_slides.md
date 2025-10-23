@@ -42,6 +42,8 @@ For 2D discrete signals (single channel):
 
 Where *I* is the input image and *K* is the kernel. In deep learning libraries the kernel is flipped in the formal definition, but implementation abstracts that away.
 
+![Convolution explanation](convolution.png)
+
 ![Convolution](cnn_convolution.gif)
 
 ---
@@ -56,6 +58,7 @@ Output spatial size formula (square input W, kernel k, padding p, stride s):
 
 \[ \text{out} = \left\lfloor \frac{W - k + 2p}{s} \right\rfloor + 1 \]
 
+![Padding](padding.png)
 ---
 
 ## Slide 6 — Multiple channels & filters
@@ -117,6 +120,14 @@ Input -> [Conv(3x3, 32) -> ReLU] -> [Conv(3x3, 64) -> ReLU] -> MaxPool(2x2)
 ## Slide 13 — Demo: tiny CNN in Keras (MNIST)
 
 Below is minimal, runnable code that should work with TensorFlow 2.x (`tensorflow` package).
+
+```bash
+pip install -r requirements_cnn.txt
+```
+
+[Code](https://github.com/neelsoumya/teaching_neural_networks/blob/main/cnn_simple.py)
+
+
 
 ```python
 # tiny_cnn_mnist.py
