@@ -1,6 +1,6 @@
-# Convolutional Neural Networks for Biologists
+# Introduction to Neural Networks
 
-A practical introduction to CNNs designed specifically for researchers in the biological sciences.
+A practical introduction to neural networks and convolutional neural networks.
 
 ## Course Overview
 
